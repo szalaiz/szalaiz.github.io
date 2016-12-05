@@ -2,7 +2,9 @@
   var currentTime = new Date();
   var year = currentTime.getFullYear();   //year  = "2016";
   var month = currentTime.getMonth() + 1; //month = "11";
+    month = (month < 10) ? ("0" + month) : month;
   var day = currentTime.getDate();        //day   = "28";
+    day = (day < 10) ? ("0" + day) : day;
 
   today = year + "." + month + "." + day + ".";
 
