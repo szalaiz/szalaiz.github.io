@@ -13,8 +13,6 @@
       font-weight:   bold;
     }
     div#box1 {color: #999999; font-size: 300px;}
-    div#box2 {color: #33CC33;}
-    div#box3 {color: #CC3333;}
   </STYLE>
 <style type="text/css">a {text-decoration: none}</style>
   <SCRIPT>
@@ -44,7 +42,7 @@
     setTimeout(function(){fadeOut('box1');}, 3000);
     setTimeout(function(){fadeIn('box1');document.getElementById("box1").innerHTML = "1";}, 4000);
     setTimeout(function(){fadeOut('box1');}, 5000);
-    setTimeout(function(){Math.random()>0.5 ? document.getElementById("box2").innerHTML = "<A href=decide.htm style=color:#AA3333>Yes</A>" : document.getElementById("box3").innerHTML = "<A href=decide.htm>No</A>"}, 5500);
+    setTimeout(function(){Math.random()>0.5 ? document.getElementById("box2").innerHTML = "<A href=decide.htm style=color:#33CC33>Yes</A>" : document.getElementById("box3").innerHTML = "<A href=decide.htm style=color:#CC3333>No</A>"}, 5500);
   </SCRIPT>
 </BODY>
 
