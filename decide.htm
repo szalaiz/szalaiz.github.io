@@ -16,7 +16,7 @@
     div#box2 {color: #33CC33;}
     div#box3 {color: #CC3333;}
   </STYLE>
-
+<style type="text/css">a {text-decoration: none}</style>
   <SCRIPT>
     function fadeOut(el) {
       var elem = document.getElementById(el);
@@ -44,7 +44,7 @@
     setTimeout(function(){fadeOut('box1');}, 3000);
     setTimeout(function(){fadeIn('box1');document.getElementById("box1").innerHTML = "1";}, 4000);
     setTimeout(function(){fadeOut('box1');}, 5000);
-    setTimeout(function(){Math.random()>0.5 ? document.getElementById("box2").innerHTML = "Yes" : document.getElementById("box3").innerHTML = "No"}, 5500);
+    setTimeout(function(){Math.random()>0.5 ? document.getElementById("box2").innerHTML = "<A href="">Yes</A>" : document.getElementById("box3").innerHTML = "No"}, 5500);
   </SCRIPT>
 </BODY>
 
