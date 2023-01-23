@@ -9,7 +9,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: dorgicse.jpg;
+    background-image: dorgicse.jpg;
 }
 .container{
     width: 600px;
