@@ -1,33 +1,42 @@
-<html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="flipdown.css" />
-<script src="flipdown.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
 </head>
 <body>
-  
-  <div id="flipdown" class="flipdown"></div>
- 
-  <script>
-    
-    var datetime = new Date("Jun 17, 2023 17:00:00").getTime();
+    <div class="container">
+        <div style="width: 130px;" class="box">
+            <h2 id="days-text">Days</h2>
+            <p id="days">000</p>
+        </div>
+        <div class="box">
+            <h2 id="hours-text">Hours</h2>
+            <p id="hours">00</p>
+        </div>
+        <div class="box">
+            <h2 id="minutes-text">Minutes</h2>
+            <p id="minutes">00</p>
+        </div>
+        <div class="box">
+            <h2 id="seconds-text">Secondes</h2>
+            <p id="seconds">00</p>
+        </div>
+    </div>
 
-    var flipdown = new FlipDown(datetime);
-    
-    
-    
-    
-    
-    flipdown.start();
-    flipdown.ifEnded(() => {
-  console.log('The countdown has ended!');
-});
-    
-    
-    var flipdown = new FlipDown(datetime, el, {
-    theme: 'light' // or dark
-});
-    </script>
-  
-  
-  </body>
+    <div style="background: rgb(204, 24, 24);" class="alert">
+        <h1 style="padding: 50px 80px;color: white;">Finished!</h1>
+    </div>
+</body>
 </html>
