@@ -2,15 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: rgb(18, 19, 18);
-    background-image: dorgicse.jpg;
 }
 body{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: dorgicse.jpg;
+    background-image: url("dorgicse.jpg"), url("silver.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
 }
 .container{
     width: 600px;
@@ -24,19 +24,29 @@ body{
     height: 100px;
     margin: 0 15px;
 }
-h2{
-    text-align: center;
-    padding-top: 2px;
-    color: blanchedalmond;
-    
-}
 .box p{
     font-size: 50px;
     text-align: center;
-    font-family: sans-serif;
     font-weight: 800;
     margin-bottom: 15px;
-    color: blanchedalmond;
+    color: white;
+    font-family: sans-serif;
+	font-weight: lighter;
+}
+h2{
+    text-align: center;
+    padding-top: 2px;
+    color: silver;
+    font-family: tahoma;
+	font-weight: bolder;
+}
+h1{
+    text-align: center;
+    padding-top: 2px;
+    font-family: tahoma;
+    font-size: 150px;
+	color: blanchedalmond;
+	font-weight: bolder;
 }
 .alert{
     display: none;
