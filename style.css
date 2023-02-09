@@ -8,7 +8,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("dorgicse.jpg"), url("silver.jpg");
+    background-image: url("gernye.jpg"), url("silver.jpg");
     background-blend-mode: multiply;
     background-size: cover;
 }
