@@ -48,9 +48,11 @@ p{
 
 a{
   color: pink;
+  text-decoration: none;
 }
 a:visited {
   color: pink;
+  text-decoration: none;
 }
 
 
