@@ -36,6 +36,11 @@ body{
       font-size: 50px;
       color: white;
 }
+.notes{
+      font-family: "";
+      font-size:25px;
+      color: white;
+}
 p{
 //  text-align: center;
 }
