@@ -13,7 +13,7 @@ body{
 .names{
 //      font-family: Brush Script MT;
       font-family: "Great Vibes";
-      font-size: 60px;
+      font-size: 100px;
       color: white;
 }
 p{
@@ -40,14 +40,14 @@ p{
 //position:relative;
 }
 .box{
-    width: 100px;
+    width: 200px;
 //    height: 100px;
     margin: 0 15px;
 }
 .box p{
     font-size: 100px;
 //    text-align: center;
-    font-weight: 800;
+//    font-weight: 800;
     margin-bottom: 15px;
     color: white;
     font-family: sans-serif;
