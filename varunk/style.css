@@ -49,6 +49,9 @@ p{
 a{
   color: pink;
 }
+a:visited {
+  color: pink;
+}
 
 
 
