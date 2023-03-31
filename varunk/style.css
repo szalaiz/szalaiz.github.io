@@ -61,20 +61,20 @@ p{
 //    width: 200px;
     width: 100%;
 //    height: 100px;
-    margin: 0 15px;
+//    margin: 0 15px;
 }
 .box p{
     font-size: 100px;
 //    text-align: center;
 //    font-weight: 800;
-    margin-bottom: 15px;
+//    margin-bottom: 15px;
     color: white;
     font-family: sans-serif;
     font-weight: lighter;
 }
 h2{
     text-align: center;
-    padding-top: 2px;
+//    padding-top: 2px;
 //    color: #aaaaaa;
     color: silver;
     font-family: tahoma;
@@ -82,7 +82,7 @@ h2{
 }
 h1{
     text-align: center;
-    padding-top: 2px;
+//    padding-top: 2px;
     font-family: tahoma;
     font-size: 150px;
     color: blanchedalmond;
