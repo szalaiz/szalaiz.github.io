@@ -5,8 +5,10 @@ body{
 //  justify-content: center;
   background-image: url("gernye.jpg");
 //  background-color: #888888;
-  background-color: black;
-  background-blend-mode: screen;
+//  background-color: black;
+//  background-blend-mode: screen;
+  background-color: silver;
+  background-blend-mode: multiply;
   background-size: cover;
   color: white;
 }
