@@ -30,13 +30,7 @@ timer();
 // Calling the function every 1000 milliseconds.
 setInterval(timer, 1000);
 
-
-
 const el = document.getElementById('guest');
-
 setTimeout(() => {
   el.style.visibility = 'visible';
-
-  // 👇️ if you used `display` to hide the element
-  // el.style.display = 'block';
-}, 3000); // 👈️ delay in milliseconds
+}, 3000);
